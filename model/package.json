@@ -1,0 +1,24 @@
+{
+  "name": "@noxas/model",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "postinstall": "prisma generate"
+  },
+  "engines": {
+    "node": "16.x",
+    "npm": "7.x"
+  },
+  "dependencies": {
+    "@prisma/client": "3.2.1"
+  },
+  "devDependencies": {
+    "prisma": "3.2.1",
+    "ts-node": "10.2.1",
+    "typescript": "4.4.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
