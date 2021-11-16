@@ -10,6 +10,11 @@ generator client {
   provider = "prisma-client-js"
 }
 
+generator model_type {
+  provider = "node ./prisma/generator.js"
+  output   = "../models/_prisma"
+}
+
 model User {
   id   String @id @default(cuid())
   role Role   @default(USER)

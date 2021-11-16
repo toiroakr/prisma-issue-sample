@@ -11,7 +11,8 @@
     "npm": "7.x"
   },
   "dependencies": {
-    "@prisma/client": "3.2.1"
+    "@prisma/client": "3.2.1",
+    "@prisma/generator-helper": "3.2.1"
   },
   "devDependencies": {
     "prisma": "3.2.1",
