@@ -5,6 +5,7 @@ module.exports = {
   // reactStrictMode: true,
   webpack(config, { defaultLoaders }) {
     config.resolve.alias['@model'] = path.join(__dirname, '..', 'model')
+    config.resolve.alias['util/types'] = 'util/support/types'
 
     config.resolve.extensions.push('.ts', '.tsx')
     config.module.rules.push({
