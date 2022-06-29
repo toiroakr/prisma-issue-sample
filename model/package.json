@@ -15,7 +15,8 @@
   },
   "dependencies": {
     "@prisma/client": "4.0.0",
-    "@prisma/generator-helper": "4.0.0"
+    "@prisma/generator-helper": "4.0.0",
+    "util": "0.12.4"
   },
   "devDependencies": {
     "prisma": "4.0.0",
