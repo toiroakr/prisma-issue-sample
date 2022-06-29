@@ -14,10 +14,10 @@
     "extends": "../package.json"
   },
   "dependencies": {
-    "@prisma/client": "3.2.1"
+    "@prisma/client": "4.0.0"
   },
   "devDependencies": {
-    "prisma": "3.2.1",
+    "prisma": "4.0.0",
     "ts-node": "10.2.1",
     "typescript": "4.4.3"
   },
