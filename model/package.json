@@ -14,7 +14,8 @@
     "extends": "../package.json"
   },
   "dependencies": {
-    "@prisma/client": "4.0.0"
+    "@prisma/client": "4.0.0",
+    "@prisma/generator-helper": "4.0.0"
   },
   "devDependencies": {
     "prisma": "4.0.0",
